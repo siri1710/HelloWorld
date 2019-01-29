@@ -19,8 +19,8 @@ import org.testng.annotations.Test;
                 "html:target/cucumber-reports/cucumber-pretty",
                 "html:target/cucumber-html-report",
                 "json:target/cucumber-reports/CucumberTestReport.json",
-                "rerun:target/cucumber-reports/rerun.txt"},
-        plugin = {"io.cucumber.pro.JsonReporter12:default"}
+                "rerun:target/cucumber-reports/rerun.txt"}
+        //plugin = {"io.cucumber.pro.JsonReporter12:default"}
 
 )
 public class TestRunner {
